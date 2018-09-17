@@ -79,7 +79,10 @@ namespace AnomalyDetection
 
         private void SetRequestData()
         {
-            this.requestData.Text = JsonConvert.SerializeObject(this._request, Formatting.Indented);
+            this.requestData.Text = JsonConvert.SerializeObject(this._request, Formatting.Indented, new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            });
         }
         private void Form1_Load(object sender, EventArgs e)
         {

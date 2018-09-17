@@ -12,8 +12,8 @@ namespace AnomalyDetection
     public class Request
     {
         public List<Point> Series { get; set; }
-        public float MaxAnomalyRatio { get; set; }
-        public int Sensitivity { get; set; }
+        public float? MaxAnomalyRatio { get; set; }
+        public int? Sensitivity { get; set; }
         public string Granularity { get; set; }
 
     }
