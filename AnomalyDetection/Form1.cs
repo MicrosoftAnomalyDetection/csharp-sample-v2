@@ -124,12 +124,12 @@ namespace AnomalyDetection
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            this.urlBox.Text = "https://cognitiveusw2ppe.azure-api.net/anomalyfinder/v2.0/timeseries/last/detect";
+            this.urlBox.Text = "https://westus2.api.cognitive.microsoft.com/anomalyfinder/v2.0/timeseries/last/detect";
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            this.urlBox.Text = "https://cognitiveusw2ppe.azure-api.net/anomalyfinder/v2.0/timeseries/entire/detect";
+            this.urlBox.Text = "https://westus2.api.cognitive.microsoft.com/anomalyfinder/v2.0/timeseries/entire/detect";
         }
 
     }
