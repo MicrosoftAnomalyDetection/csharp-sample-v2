@@ -1,6 +1,6 @@
-# Microsoft Cognitive Services Anomaly Detection tutorial projects
+# Microsoft Cognitive Services Anomaly Finder tutorial projects
 
-This tutorial shows the features of the Microsoft Cognitive Services Anomaly Detection REST API by using C#, Java, Python and JavaScript(HTML).
+This tutorial shows the features of the Microsoft Cognitive Services Anomaly Finder REST API by using C#, Java, Python and JavaScript(HTML).
 
 ## Getting started
 
@@ -11,7 +11,3 @@ This tutorial shows the features of the Microsoft Cognitive Services Anomaly Det
 3. Install latest Newtonsoft.Json package with NuGet Packages Manager.
 
 You are now ready to begin the tutorial. 
-
-### Instructions
-
-The instructions for the tutorial can be found at [Anomaly Detection API](https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detection/tutorials).
